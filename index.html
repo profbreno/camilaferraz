@@ -19,6 +19,7 @@
       display: flex;
       justify-content: space-between;
       align-items: center;
+      padding: 20px 100px;
     }
     header nav a {
       color: white;
@@ -51,8 +52,7 @@
       font-weight: bold;
     }
     section {
-      padding: 50px 20px;
-      max-width: 1000px;
+      padding: 50px 100px;
       margin: auto;
     }
     .planos, .diferenciais, .formulario {
@@ -71,8 +71,11 @@
     .planos li, .diferenciais li {
       margin-bottom: 10px;
     }
+    .formulario {
+      text-align: center;
+    }
     .formulario input, .formulario button {
-      width: 100%;
+      width: 50%;
       padding: 10px;
       margin: 10px 0;
       border-radius: 5px;
@@ -105,102 +108,164 @@
       <a href="#diferenciais">Diferenciais</a>
       <a href="#contato">Contato</a>
     </nav>
-    <a href="#formulario" class="cta">Agende sua Aula</a>
   </header>
 
   <section class="hero">
     <h1>Pilates para transformar corpo e mente</h1>
     <p>Cuide da sua saúde com acompanhamento especializado.</p>
-    <a href="#formulario" class="cta-btn">Quero minha aula experimental grátis!</a>
+    <a href="#formulario" class="cta-btn">AGENDAR AULA EXPERIMENTAL</a>
+  </section>
+
+  <section id="oquepilates">
+    <h2>O que é Pilates?</h2>
+    <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap;">
+      <div style="flex:1; min-width:220px;">
+        <p>O Pilates é um método de exercício físico que combina alongamento, fortalecimento muscular e controle da respiração para melhorar a flexibilidade, a postura e o bem-estar geral. Desenvolvido por Joseph Pilates no início do século XX, o método enfatiza a conexão entre mente e corpo, promovendo equilíbrio, força e consciência corporal.</p>
+        <p>Os exercícios de Pilates podem ser realizados no solo ou com o auxílio de equipamentos específicos, como o Reformer, Cadillac e Chair. O método é adequado para pessoas de todas as idades e níveis de condicionamento físico, sendo especialmente benéfico para aqueles que buscam reabilitação física, alívio do estresse ou melhoria da postura.</p>
+        <a href="#formulario" class="cta-btn" style="display:inline-block; background:#ff6b6b; color:white; padding:15px 30px; border-radius:5px; text-decoration:none; font-weight:bold; font-size:1.1em;">
+          AGENDAR AULA EXPERIMENTAL
+        </a>
+      </div>
+      <div style="flex:1; min-width:220px; text-align:center;">
+        <img src="https://images.unsplash.com/photo-1637157216470-d92cd2edb2e8?auto=format&fit=crop&w=800&q=80" alt="Pilates" style="width:80%; border-radius:10px; box-shadow:0 2px 8px #ccc;">
+      </div>
+    </div>
+  </section>
+
+  <section id="beneficios" style="margin-bottom:40px;">
+    <div style="display: flex; gap: 40px; align-items: center; flex-wrap: wrap;">
+      <div style="flex:1; min-width:220px; text-align:center;">
+        <img src="https://images.unsplash.com/photo-1717500250576-5ffefc5cfb93?auto=format&fit=crop&w=600&q=80" alt="Benefícios do Pilates" style="width:100%; border-radius:10px; box-shadow:0 2px 8px #ccc;">
+      </div>
+      <div style="flex:2; min-width:220px;">
+        <h2>Benefícios do Pilates</h2>
+        <ul style="list-style:none; padding:0; font-size:0.9em;">
+          <li style="margin-bottom:16px;">
+            <strong>Melhora da Postura e Alinhamento Corporal:</strong><br>
+            Fortalece os músculos centrais e promove uma postura mais ereta e equilibrada.
+          </li>
+          <li style="margin-bottom:16px;">
+            <strong>Aumento da Flexibilidade e Amplitude de Movimento:</strong><br>
+            Alonga os músculos e articulações, melhorando a flexibilidade e agilidade do corpo.
+          </li>
+          <li style="margin-bottom:16px;">
+            <strong>Fortalecimento Muscular Equilibrado:</strong><br>
+            Trabalha os músculos de forma uniforme, resultando em um corpo mais forte e tonificado.
+          </li>
+          <li style="margin-bottom:16px;">
+            <strong>Melhora da Coordenação e Equilíbrio:</strong><br>
+            Exige controle preciso do corpo, aprimorando a coordenação motora e o equilíbrio.
+          </li>
+          <li style="margin-bottom:16px;">
+            <strong>Alívio do Estresse e Promoção do Bem-Estar:</strong><br>
+            Incorpora técnicas de respiração profunda e concentração, reduzindo o estresse e promovendo uma sensação de calma e relaxamento.
+          </li>
+        </ul>
+        <a href="#formulario" class="cta-btn" style="display:inline-block; background:#ff6b6b; color:white; padding:15px 30px; border-radius:5px; text-decoration:none; font-weight:bold; font-size:1em;">
+          AGENDAR AULA EXPERIMENTAL
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <section id="diferenciais" class="diferenciais">
+    <h2 style="text-align: center;">Benefícios exclusivos que você merece:</h2>
+    <p style="text-align: center;">Seu corpo e mente merecem o melhor! Aqui no Estúdio de Pilates Inspire é exatamente isso que oferecemos. Agende sua primeira sessão e prepare-se para se inspirar!</p>
+    <div style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+      <div style="background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #eee; padding: 25px 20px; min-width:220px; max-width:260px; text-align:center; flex:1;">
+        <div style="font-size:2.2em; margin-bottom:10px;">🌟</div>
+        <strong>Qualidade superior de serviço</strong>
+        <p style="margin-top:10px; font-size:0.98em;">Comprometimento com um serviço impecável do início ao fim, garantindo uma experiência memorável em cada sessão.</p>
+      </div>
+      <div style="background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #eee; padding: 25px 20px; min-width:220px; max-width:260px; text-align:center; flex:1;">
+        <div style="font-size:2.2em; margin-bottom:10px;">👩‍⚕️</div>
+        <strong>Professores altamente qualificados</strong>
+        <p style="margin-top:10px; font-size:0.98em;">Instrutores especializados em Pilates e formados em áreas-chave da saúde, assegurando orientação habilidosa e segura.</p>
+      </div>
+      <div style="background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #eee; padding: 25px 20px; min-width:220px; max-width:260px; text-align:center; flex:1;">
+        <div style="font-size:2.2em; margin-bottom:10px;">❄️</div>
+        <strong>Aulas climatizadas para o seu conforto</strong>
+        <p style="margin-top:10px; font-size:0.98em;">Ambiente ideal para relaxamento e concentração, livre de distrações, promovendo seu bem-estar e progresso pessoal.</p>
+      </div>
+      <div style="background: #fff; border-radius: 10px; box-shadow: 0 2px 8px #eee; padding: 25px 20px; min-width:220px; max-width:260px; text-align:center; flex:1;">
+        <div style="font-size:2.2em; margin-bottom:10px;">👥</div>
+        <strong>Turmas reduzidas</strong>
+        <p style="margin-top:10px; font-size:0.98em;">Turmas pequenas, permitindo orientação individualizada para aperfeiçoar sua técnica e maximizar resultados, enquanto se evitam lesões.</p>
+      </div>
+    </div>
   </section>
 
 <section id="sobre">
-    <h2>Sobre o Studio</h2>
+    <h2 style="text-align: center;">Sobre o Studio</h2>
     <div style="display: flex; gap: 40px; align-items: center; justify-content: center; flex-wrap: wrap;">
         <div style="text-align: center;">
-            <img src="img/camila.jpg" alt="Camila Ferraz" style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:3px solid #1a535c;">
+            <img src="img/IMG_2304.JPG" alt="Camila Ferraz" style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:3px solid #1a535c;">
             <p><strong>Camila Ferraz</strong><br>Fisioterapeuta e Instrutora de Pilates<br>(CREFITO 123456-F)</p>
         </div>
         <div style="text-align: center;">
-            <img src="img/laura.jpg" alt="Laura Novaes" style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:3px solid #1a535c;">
+            <img src="img/IMG_2696.JPG" alt="Laura Novaes" style="width:120px; height:120px; object-fit:cover; border-radius:50%; border:3px solid #1a535c;">
             <p><strong>Laura Novaes</strong><br>Fisioterapeuta e Instrutora de Pilates<br>(CREFITO 654321-F)</p>
         </div>
     </div>
-    <p>Aqui, o Pilates é mais do que exercício: é equilíbrio, saúde e bem-estar em cada movimento.</p>
-    <p><strong>Endereço:</strong> R. Fulgencio Manoel da Silva – Galeria Bom Jesus, Floresta-PE (em frente ao Shalom Açaí Vip)<br>
-    <strong>Funcionamento:</strong> Segunda a sexta, com horários agendados.</p>
+    <div style="text-align: center; margin-top: 20px;">
+      <p>Aqui, o Pilates é mais do que exercício: é equilíbrio, saúde e bem-estar em cada movimento.</p>
+      <p><strong>Endereço:</strong> R. Fulgencio Manoel da Silva – Galeria Bom Jesus, Floresta-PE (em frente ao Shalom Açaí Vip)<br>
+      <strong>Funcionamento:</strong> Segunda a sexta, com horários agendados.</p>
+    </div>
 </section>
 
-  <section id="diferenciais" class="diferenciais">
-    <h2>Diferenciais</h2>
-    <ul>
-      <li>✔️ Atendimento com fisioterapeuta</li>
-      <li>✔️ Aulas personalizadas em grupos pequenos (até 3 alunos)</li>
-      <li>✔️ Estrutura moderna com equipamentos novos</li>
-      <li>✔️ Pilates Adulto, Pilates Gestante e Pilates Kids</li>
-    </ul>
-  </section>
-
 <section id="planos" class="planos">
-    <h2>Planos e Valores</h2>
-    <div style="text-align: center;">
-        <p style="font-style: italic;">Clique no plano desejado para ver as promoções!</p>
-    </div>
-    <div id="planos-container" style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
-        <div class="plano" data-plano="1x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center; cursor:pointer;">
-            <h3 style="color:#5c1515; margin-bottom:10px;">1x por semana</h3>
-            <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$200/mês</p>
-        </div>
-        <div class="plano" data-plano="2x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center; cursor:pointer;">
-            <h3 style="color:#5c1515; margin-bottom:10px;">2x por semana</h3>
-            <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$280/mês</p>
-        </div>
-        <div class="plano" data-plano="3x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center; cursor:pointer;">
-            <h3 style="color:#5c1515; margin-bottom:10px;">3x por semana</h3>
-            <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$360/mês</p>
-        </div>
-    </div>
-    <div id="promocoes" style="margin-top:30px; background:#eaf6f6; border-radius:8px; padding:20px; display:none;">
+  <h2 style="text-align: center;">Planos e Valores</h2>
+  <div style="text-align: center;">
+    <p style="font-style: italic;">Veja os pacotes promocionais abaixo!</p>
+  </div>
+  <div id="planos-container" style="display: flex; gap: 30px; flex-wrap: wrap; justify-content: center;">
+    <div class="plano" data-plano="1x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center;">
+      <h3 style="color:#5c1515; margin-bottom:10px;">1x por semana</h3>
+      <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$200/mês</p>
+      <div class="promocoes" style="margin-top:20px; background:#eaf6f6; border-radius:8px; padding:15px;">
         <h4 style="color:#1a535c; margin-bottom:10px;">Pacotes Promocionais</h4>
         <ul style="list-style:none; padding:0; margin:0;">
-            <li id="promo-3m"></li>
-            <li id="promo-6m"></li>
-            <li id="promo-12m"></li>
+          <li>🎁 <strong>3 meses:</strong> R$195/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$585</span></li>
+          <li>🎁 <strong>6 meses:</strong> R$190/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.140</span></li>
+          <li>🎁 <strong>12 meses:</strong> R$180/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$2.160</span></li>
         </ul>
         <p style="margin-top:10px; font-style:italic;">Aceitamos Dinheiro, Pix ou cartão</p>
         <p style="margin-top:5px; font-style:italic;">Parcelamos no cartão</p>
         <p style="margin-top:10px; color:#5c1515; font-size:0.75em;"><strong>Atenção:</strong> Os pacotes deverão ser pagos antecipadamente.</p>
+      </div>
     </div>
-    <script>
-    const promocoes = {
-      "1x": {
-        "3m": "🎁 <strong>3 meses:</strong> R$195/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$585</span>",
-        "6m": "🎁 <strong>6 meses:</strong> R$190/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.140</span>",
-        "12m": "🎁 <strong>12 meses:</strong> R$180/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$2.160</span>"
-      },
-      "2x": {
-        "3m": "🎁 <strong>3 meses:</strong> R$275/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$825</span>",
-        "6m": "🎁 <strong>6 meses:</strong> R$270/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.620</span>",
-        "12m": "🎁 <strong>12 meses:</strong> R$260/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$3.120</span>"
-      },
-      "3x": {
-        "3m": "🎁 <strong>3 meses:</strong> R$355/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.065</span>",
-        "6m": "🎁 <strong>6 meses:</strong> R$350/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$2.100</span>",
-        "12m": "🎁 <strong>12 meses:</strong> R$340/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$4.080</span>"
-      }
-    };
-
-    document.querySelectorAll('.plano').forEach(function(el) {
-      el.addEventListener('click', function() {
-        const plano = el.getAttribute('data-plano');
-        document.getElementById('promocoes').style.display = 'block';
-        document.getElementById('promo-3m').innerHTML = promocoes[plano]["3m"];
-        document.getElementById('promo-6m').innerHTML = promocoes[plano]["6m"];
-        document.getElementById('promo-12m').innerHTML = promocoes[plano]["12m"];
-      });
-    });
-    </script>
+    <div class="plano" data-plano="2x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center;">
+      <h3 style="color:#5c1515; margin-bottom:10px;">2x por semana</h3>
+      <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$280/mês</p>
+      <div class="promocoes" style="margin-top:20px; background:#eaf6f6; border-radius:8px; padding:15px;">
+        <h4 style="color:#1a535c; margin-bottom:10px;">Pacotes Promocionais</h4>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li>🎁 <strong>3 meses:</strong> R$275/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$825</span></li>
+          <li>🎁 <strong>6 meses:</strong> R$270/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.620</span></li>
+          <li>🎁 <strong>12 meses:</strong> R$260/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$3.120</span></li>
+        </ul>
+        <p style="margin-top:10px; font-style:italic;">Aceitamos Dinheiro, Pix ou cartão</p>
+        <p style="margin-top:5px; font-style:italic;">Parcelamos no cartão</p>
+        <p style="margin-top:10px; color:#5c1515; font-size:0.75em;"><strong>Atenção:</strong> Os pacotes deverão ser pagos antecipadamente.</p>
+      </div>
     </div>
+    <div class="plano" data-plano="3x" style="background: #fff; border-radius: 8px; box-shadow: 0 2px 8px #eee; padding: 20px 30px; min-width: 220px; text-align: center;">
+      <h3 style="color:#5c1515; margin-bottom:10px;">3x por semana</h3>
+      <p style="font-size:1.5em; font-weight:bold; color:#1a535c;">R$360/mês</p>
+      <div class="promocoes" style="margin-top:20px; background:#eaf6f6; border-radius:8px; padding:15px;">
+        <h4 style="color:#1a535c; margin-bottom:10px;">Pacotes Promocionais</h4>
+        <ul style="list-style:none; padding:0; margin:0;">
+          <li>🎁 <strong>3 meses:</strong> R$355/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$1.065</span></li>
+          <li>🎁 <strong>6 meses:</strong> R$350/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$2.100</span></li>
+          <li>🎁 <strong>12 meses:</strong> R$340/mês <span style='font-size:0.6em; font-style:italic;'>Total: R$4.080</span></li>
+        </ul>
+        <p style="margin-top:10px; font-style:italic;">Aceitamos Dinheiro, Pix ou cartão</p>
+        <p style="margin-top:5px; font-style:italic;">Parcelamos no cartão</p>
+        <p style="margin-top:10px; color:#5c1515; font-size:0.75em;"><strong>Atenção:</strong> Os pacotes deverão ser pagos antecipadamente.</p>
+      </div>
+    </div>
+  </div>
 </section>
 
 <section id="formulario" class="formulario">
@@ -228,8 +293,13 @@ function enviarZap(e) {
   <footer>
     <p>Studio Camila Ferraz - Pilates<br>
     📍 R. Fulgencio Manoel da Silva – Galeria Bom Jesus, Floresta-PE<br>
-    📞 WhatsApp: (87) 99659-6021 | 📧 contato@studiocamilaferraz.com<br>
+    📞 (87) 99659-6021 (WhatsApp)<br>
     Siga-nos no Instagram: <a href="https://instagram.com/camilaferraz.fisio" target="_blank">@camilaferraz.fisio</a></p>
   </footer>
+  <a href="https://wa.me/5587996596021?text=Olá!%20Quero%20ser%20aluno." target="_blank" style="position:fixed; right:25px; bottom:25px; z-index:9999; background:#25d366; border-radius:50%; width:60px; height:60px; display:flex; align-items:center; justify-content:center; box-shadow:0 2px 8px #888; text-decoration:none;">
+    <svg xmlns="http://www.w3.org/2000/svg" width="34" height="34" viewBox="0 0 32 32" fill="white">
+      <path d="M16 3C9.373 3 4 8.373 4 15c0 2.637.86 5.09 2.48 7.18L4 29l7.09-2.32A12.93 12.93 0 0 0 16 27c6.627 0 12-5.373 12-12S22.627 3 16 3zm0 22c-2.09 0-4.13-.64-5.85-1.85l-.42-.28-4.2 1.37 1.37-4.2-.28-.42A9.97 9.97 0 0 1 6 15c0-5.52 4.48-10 10-10s10 4.48 10 10-4.48 10-10 10zm5.13-7.47c-.28-.14-1.65-.81-1.9-.9-.25-.09-.43-.14-.61.14-.18.28-.7.9-.86 1.08-.16.18-.32.2-.6.07-.28-.14-1.18-.43-2.25-1.37-.83-.74-1.39-1.65-1.55-1.93-.16-.28-.02-.43.12-.57.12-.12.28-.32.42-.48.14-.16.18-.28.28-.46.09-.18.05-.34-.02-.48-.07-.14-.61-1.47-.84-2.01-.22-.53-.45-.46-.61-.47-.16-.01-.34-.01-.52-.01-.18 0-.48.07-.73.34-.25.28-.97.95-.97 2.32s.99 2.68 1.13 2.87c.14.18 1.95 2.99 4.73 4.07.66.28 1.18.45 1.58.58.66.21 1.26.18 1.73.11.53-.08 1.65-.67 1.88-1.32.23-.65.23-1.21.16-1.32-.07-.11-.25-.18-.53-.32z"/>
+    </svg>
+  </a>
 </body>
 </html>
